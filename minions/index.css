@@ -1,0 +1,57 @@
+.Main-body{
+    background-color: rgb(102, 195, 231);
+    padding: left;
+      
+} 
+
+/*this is for navigation*/
+.main-nav{
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 0%;
+    width: 100%;
+    display: inline-block;
+}   
+
+.nav-list{
+    color: yellow;
+     display: flex;
+   flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+    border: 10pc;
+}
+
+.logo{
+    color: yellow;
+    font-size: 2rem;
+    text-decoration: line-through;
+    font-family: 900;
+    padding: right;
+}
+
+.li{
+    list-style: none;
+    style:block;
+}
+ 
+.header-one{
+    font-size: 5rem;
+}
+
+
+.first-parent{
+   display: flex;
+   flex-direction: row;
+   font-size: larger;
+}
+
+.second-child img{
+    max-width: 600px;
+    height: 500px;
+    border-radius: 100cm;
+}
